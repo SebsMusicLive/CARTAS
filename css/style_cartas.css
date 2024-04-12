@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.container{
+    padding: 5%;
+    padding-top: 0;
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container_cartas{
+    width: 40%;
+    height: auto;
+    
+}
+
+img{
+    width: 20%;
+    margin: 10px;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0;
+}
+
+img:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.contador{
+    width: 60%;
+    height: auto;
+    display: flex;
+}
+
+.registro_cartas{
+    width: 50%;
+    height: auto;
+    margin: 5px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+
+}
